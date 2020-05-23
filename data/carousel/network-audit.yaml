@@ -1,0 +1,9 @@
+weight: 5
+title: "What's in a free network audit?"
+description: |
+  <ul class="list-style-none">
+    <li><b><span style="color:red; background-color:white">EVALUATE:</span></b> This is  passive information gathering, with no modifications. </li>
+    <li><b><span style="color:red; background-color:white">PROPOSE:</span></b> I show you what's critical, together we address your priorities.</li>
+    <li><b><span style="color:red; background-color:white">IMPLEMENT:</span></b> We establish a budget and a timeline, then stick to it.</li>
+  </ul>
+image: "img/carousel/network-audit.png"
