@@ -1,6 +1,0 @@
-[submodule "themes/hugo-universal-theme"]
-	path = themes/hugo-universal-theme
-	url = https://github.com/devcows/hugo-universal-theme.git
-[submodule "themes/dot-hugo-documentation-theme"]
-	path = themes/dot-hugo-documentation-theme
-	url = https://github.com/themefisher/dot-hugo-documentation-theme.git
