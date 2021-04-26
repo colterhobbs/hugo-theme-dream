@@ -2,7 +2,7 @@
 # provide your domain here
 baseURL = "https://jptechnical.com/"
 # theme
-theme = "dot"
+theme = "hugo-dot-theme"
 # site title
 title = "JP|Technical - 907-748-2200"
 # disable language
@@ -36,7 +36,9 @@ light_color = "#f8f9fa"
 font_family = "lato" # Choose font family from : https://fonts.google.com/
 
 # contact form action
-contact_form_action = "#" # contact form works with : https://formspree.io
+contact_form_action = "https://formspree.io/f/jp@jptechnical.com" # contact form works with : https://formspree.io
+# Issue for this: https://github.com/themefisher/dot-hugo-documentation-theme/issues/162
+# contact_form_action = "https://formspree.io/f/jp@jptechnical.com method=\"POST\"" # contact form works with : https://formspree.io
 
 
 ############################## social links ##############################
@@ -107,28 +109,28 @@ url = "contact"
 weight = 3
 
 # Dropdown menu
-[[Languages.en.menu.main]]
-weight = 4
-name = "docs"
-hasChildren = true
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Installation"
-  url = "installation"
-  weight = 1
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Billing and Pricing"
-  url = "billing-pricing"
-  weight = 2
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Features"
-  url = "features"
-  weight = 3
+# [[Languages.en.menu.main]]
+# weight = 4
+# name = "docs"
+# hasChildren = true
+#
+#   [[Languages.en.menu.main]]
+#   parent = "docs"
+#   name = "Installation"
+#   url = "installation"
+#   weight = 1
+#
+#   [[Languages.en.menu.main]]
+#   parent = "docs"
+#   name = "Billing and Pricing"
+#   url = "billing-pricing"
+#   weight = 2
+#
+#   [[Languages.en.menu.main]]
+#   parent = "docs"
+#   name = "Features"
+#   url = "features"
+#   weight = 3
 
 
 # ################################### Franch Language ######################
