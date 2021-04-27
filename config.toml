@@ -35,7 +35,7 @@ light_color = "#f8f9fa"
 font_family = "lato" # Choose font family from : https://fonts.google.com/
 
 # contact form action
-contact_form_action = "https://formspree.io/f/jp@jptechnical.com" # contact form works with : https://formspree.io
+contact_form_action = "https://formspree.io/f/xqkwezry" # contact form works with : https://formspree.io
 # Issue for this: https://github.com/themefisher/dot-hugo-documentation-theme/issues/162
 # contact_form_action = "https://formspree.io/f/jp@jptechnical.com method=\"POST\"" # contact form works with : https://formspree.io
 
