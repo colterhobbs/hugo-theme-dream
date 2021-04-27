@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/jptechnical
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jptechnical.com
+  * I am jptechnical (https://keybase.io/jptechnical) on keybase.
+  * I have a public key with fingerprint 89EB 3657 B0C0 C5CC 5AD2  C917 AE24 6605 957F D1EB
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101de5fecca2b3110cf8b7443e08ed401bf112557498aeddbaac3037b6040bc77c00a",
+      "fingerprint": "89eb3657b0c0c5cc5ad2c917ae246605957fd1eb",
+      "host": "keybase.io",
+      "key_id": "ae246605957fd1eb",
+      "kid": "0101de5fecca2b3110cf8b7443e08ed401bf112557498aeddbaac3037b6040bc77c00a",
+      "uid": "188709d0a8613933fa05f2e6269c1119",
+      "username": "jptechnical"
+    },
+    "merkle_root": {
+      "ctime": 1619564286,
+      "hash_meta": "f060d29683f08e7bf113336c2dca4b2c7c30d8480f76b9dd1e0e83a6126ee8a6",
+      "seqno": 19763604
+    },
+    "revoke": {
+      "sig_ids": [
+        "4e19c95d528a5a6c05deaf86ddd8977eedc93dd9cc9ffa527fde3cae1f3ce4fe0f"
+      ]
+    },
+    "service": {
+      "hostname": "jptechnical.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1619564302,
+  "expire_in": 157680000,
+  "prev": "2b60eb2932471479fb20eff6f3e9b75495d9795dcca7799705a26e7131ba0e2e",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMK9AnicrZNfbBRFHMevCNUWqYCoUUrUTTUYL3T+7M7sXGsFSRBDMMHY+KDmOjvz
+m962d7fX3e21BA6jLQbhQcWgwRhTXoASHjCSYB8kBE1FiYkRMRqMlaAkvJmYoqEE
+nW000eij+7Cb3f3+vr/P7zszHy+5Kdfa1Lbx0fU+enhj09nTjeFc36632rY5QaS3
+OoVtziDMP6CsIUmLg6F2Cg7CCGvwDCglSUAxRsr4AXddCsgH7SIcGIyJ53FX+BK0
+DqRUFFEeMOSiQHGuEJJO3jFhtR/iWhxWU2vrCwgo83iAFFKeUp7URAnMJRCXMeQJ
+jxuNIbCFpSjJKixcIBNYE0b2m30pzuP9h/5/5h6et8O+z5HQSPoMU0GpkcgzBBhh
+QmGMRSZMIK7KClj1QC0FVaqGSpadRt6pQDxYhmIcRWmWr0rDTIUZFh5zic/sjDIp
+FSuQSltsEEOaCOZTY0l5hkkpZYpoJd2AKG4xte/6yHAWCG2nRuBTyTBhAL5kFiWB
+oWpkOwjOqB3HIsRQjwYh656E/Ta6xCk867iAhRKe9ogvPckU8jRI4zOttS84B9BK
+UK2FUsIY6REbMVAlARuqwDWAjPN8I+sW10M1b56t1b8zWKOiiqWqxVEaqahsf5bS
+tJYUsmzSrbVMPQJB8U+fYhBWtd0stqIOcRJGVTuJVf4zNopI3oHRWhhDMcwUHmc+
+slfWB+rWktiVhIAISlyOXS5MQBAYwwwFEXDPtYMLbm92g3AuBEeetAlyTHEgERD4
+e46WU/ZbTxteVabDMTiN06eeW5hras01L1qQnaJca8vSv87WC6Wbb/D7P93w9KWP
+Pvlu9Nhcvrdw4erise9XJD3nP0v5yNGZ9omLW/bde5c5MvpDd1N5/7nJdO36W5Iz
+zXs61p3rWnvypQ/Z9olv6y/ferTn8rVn3r0yar4a/33ZZMvQoc1PvQ5v/ti98nDP
+8s93LFt3pm/PzrHpBZXb7st3XJo7u33gwNVvXu1fvXn3a198eeryqg+mZnY/0ja7
+88WBzuPpb51P7r3yoCwPPdbeu1IPl96Znd57/Tz6dcmGqZ9uwC+zja7WzkNTi9/4
+eeDthReXz+1aMXLsYKl95uv3LzR3r7on7b672rd68r3JHdN3jt1xuOWBTQe6xo/T
+209O7Nuir4939Bx5vPeV7kVP0BMPnbiWyy/9A+9NfYs=
+=fDk8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jptechnical
+
+==================================================================
