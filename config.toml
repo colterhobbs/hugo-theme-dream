@@ -76,7 +76,7 @@ copyright = "Copyright ©JP Technical, 2021, this Hugo theme by [Gethugothemes](
 [Languages.en.params.banner]
 title = "Specializing in IT management for small businesses with compliance needs."
 subtitle = "We are fully HIPAA compliant, and we have implemented NIST 800-171 standards. More importantly, we have the tools and partners to help you to do so as well."
-bg_image = "images/banner.jpg"
+bg_image = "images/banner.webp"
 placeholder = "Have a question? Search this site."
 
 # call to action
