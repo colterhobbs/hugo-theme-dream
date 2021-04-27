@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://jptechnical.com/"
+baseURL = "jptechnical.com"
 # theme
 theme = "hugo-dot-theme"
 # site title
