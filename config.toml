@@ -97,10 +97,10 @@ name = "Home"
 url = "/"
 weight = 1
 
-# [[Languages.en.menu.main]]
-# name = "Faq"
-# url = "faq"
-# weight = 2
+[[Languages.en.menu.main]]
+name = "Faq"
+url = "faq"
+weight = 2
 
 [[Languages.en.menu.main]]
 name = "contact"
