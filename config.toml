@@ -18,14 +18,13 @@ unsafe = true
 [params]
 # logo is for all page
 # logo = "/images/logo.png"
-logo = ""
-googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
 # logo white is for homepage logo, you can use colorful logo too...
-logo_white = ""
+# logo_white = "/images/logo-white.png"
 # when logo is empty, it will shown your site title
+googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
 
 # customize color
-primary_color = "#02007e"
+primary_color = "#003366"
 body_color = "#f9f9f9"
 text_color = "#636363"
 text_color_dark = "#242738"
