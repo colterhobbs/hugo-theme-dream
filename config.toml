@@ -8,7 +8,7 @@ title = "JP|Technical - 907-748-2200"
 # disable language
 disableLanguages = [1]
 # google analytics
-googleAnalytics = "UA-17780827-1"
+# googleAnalytics = "UA-17780827-1"
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
@@ -136,7 +136,6 @@ hasChildren = true
   name = "Windows & App Updates"
   url = "updates"
   weight = 4
-
 
 # ################################### Franch Language ######################
 # [Languages.fr]
