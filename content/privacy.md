@@ -5,9 +5,24 @@ date: 2021-04-23
 ---
 # Privacy Policy
 ### Last updated: May 10, 2021
+
+#### Our privacy policy is simple... we don't collect any data on you.
+We don't need to harvest your data or scrape your connection to improve the work
+we do. We are sick of the banners of most of the websites today that are nagging
+you for permission to use cookies. Forget that nonsense. So, all the jargon to
+follow is the legal mumbo jumbo that we are obligated to include. But my message
+to you is just this simple: **We don't collect your data, period!**.
+
+That said, it is concievable that some technology we use may at some point
+collect info, which is not our intention, and may be an unexpected result. If
+that ever happens, please let us know at privacy@jptechnical.com.
+
+
+## Let's get on with the legal jargon...
+
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
-We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.privacypolicies.com/privacy-policy-generator/" target="_blank">Privacy Policy Generator</a>.
+We ***DO NOT*** use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of ***absolutely no*** information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.privacypolicies.com/privacy-policy-generator/" target="_blank">Privacy Policy Generator</a>.
 
 ## Interpretation and Definitions
 ### Interpretation
