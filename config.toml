@@ -137,6 +137,11 @@ hasChildren = true
   url = "updates"
   weight = 4
 
+[[Languages.en.menu.main]]
+name = "billing portal"
+url = "billing"
+weight = 5
+
 # ################################### Franch Language ######################
 # [Languages.fr]
 # languageName = "Fr"
