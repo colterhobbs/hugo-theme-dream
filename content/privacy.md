@@ -1,8 +1,12 @@
 ---
-title: "Privacy Policy for JP Technical"
+title: "Privacy Policy and Terms & Conditions for JP Technical"
 draft: false
 date: 2021-04-23
 ---
+# JP Technical General Terms and Conditions
+
+Our general terms and conditions is found [here](/JPTechnical_GTaC.pdf).
+
 # Privacy Policy
 ### Last updated: May 10, 2021
 
