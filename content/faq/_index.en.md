@@ -1,6 +1,7 @@
 ---
 title: "Frequently Asked Questions"
 draft: false
+type : "docs"
 ---
 
 {{< faq "WHAT TYPES OF BUSINESSES DO YOU WORK WITH?" >}}

@@ -75,7 +75,7 @@ copyright = "Copyright ©JP Technical, 2021"
 # banner
 [Languages.en.params.banner]
 title = "Specializing in IT management for small businesses with compliance needs."
-subtitle = "We are fully HIPAA compliant, and we have implemented NIST 800-171 standards. More importantly, we have the tools and partners to help you to do so as well."
+subtitle = "At JP Technical, we build our managed services around Cybersecurity and Regulatory Compliance. We are fully HIPAA compliant, and we have implemented NIST standards. More importantly, we have the tools and partners to help *YOU* to do so as well. Let us help you developt a fully managed Cybersecurity program."
 bg_image = "images/banner.webp"
 placeholder = "Have a question? Search this site."
 
@@ -138,9 +138,33 @@ hasChildren = true
   weight = 4
 
 [[Languages.en.menu.main]]
+name = "standards"
+weight = 5
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "standards"
+  name = "General Terms & Conditions"
+  url = "tac"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "standards"
+  name = "Recommended Technology Platform"
+  url = "rtp"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "standards"
+  name = "Privacy Policy"
+  url = "/privacy"
+  weight = 1
+
+
+[[Languages.en.menu.main]]
 name = "billing portal"
 url = "billing"
-weight = 5
+weight = 6
 
 # ################################### Franch Language ######################
 # [Languages.fr]

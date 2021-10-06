@@ -92,21 +92,18 @@ often the quickest and best solution for you.
 - Google Drive
 - Microsoft Office Suite (Office 365 | 2016 | 2019)
 - Microsoft Teams, Zoom
-- Adobe Applications (Reader | Creative Cloud)
 - Foxit Reader
+- Adobe Reader
 - CutePDF
-- Printix Client
 - 7 Zip
+- VLC
 
 ### Web Browsers
 
 - Google Chrome
 - Firefox
-- Edge
 
 ### Finance
 
 - Xero
 - QuickBooks
-- Sage
-- Legal Software
