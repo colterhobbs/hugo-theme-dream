@@ -145,13 +145,13 @@ hasChildren = true
   [[Languages.en.menu.main]]
   parent = "standards"
   name = "General Terms & Conditions"
-  url = "tac"
+  url = "standards/tac"
   weight = 1
 
   [[Languages.en.menu.main]]
   parent = "standards"
   name = "Recommended Technology Platform"
-  url = "rtp"
+  url = "standards/rtp"
   weight = 1
 
   [[Languages.en.menu.main]]
