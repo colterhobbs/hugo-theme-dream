@@ -75,7 +75,7 @@ copyright = "Copyright ©JP Technical, 2021"
 # banner
 [Languages.en.params.banner]
 title = "Specializing in IT management for small businesses with compliance needs."
-subtitle = "At JP Technical, we build our managed services around Cybersecurity and Regulatory Compliance. We are fully HIPAA compliant, and we have implemented NIST standards. More importantly, we have the tools and partners to help *YOU* to do so as well. Let us help you developt a fully managed Cybersecurity program."
+subtitle = "At JP Technical, we build our managed services around basic Cybersecurity and Regulatory Compliance. We are fully HIPAA compliant, and we have implemented the CIS Critical Security Controls Implementation Group1 (Ig1) framework. More importantly, we have the tools and partners to help *YOU* to do so as well. Let us help you develope a fully managed technology program."
 bg_image = "images/banner.webp"
 placeholder = "Have a question? Search this site."
 
