@@ -144,6 +144,12 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "standards"
+  name = "Managed Services Plans"
+  url = "standards/msp"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "standards"
   name = "General Terms & Conditions"
   url = "standards/tac"
   weight = 1
