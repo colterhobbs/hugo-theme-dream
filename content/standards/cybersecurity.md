@@ -1,5 +1,5 @@
 ---
-title: "JP Technical Cybersecurity Essentials"
+title: "Cybersecurity Essentials"
 draft: false
 date: 2022-03-15
 ---
