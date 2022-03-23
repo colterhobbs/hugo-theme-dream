@@ -162,6 +162,12 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "standards"
+  name = "Cybersecurity Essentials"
+  url = "standards/cybersecurity"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "standards"
   name = "Privacy Policy"
   url = "/privacy"
   weight = 1
