@@ -123,19 +123,25 @@ hasChildren = true
   parent = "services"
   name = "Backup & Data Protection"
   url = "backup"
-  weight = 2
+  weight = 1
 
   [[Languages.en.menu.main]]
   parent = "services"
   name = "Remote Support"
   url = "remote-support"
-  weight = 3
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "services"
+  name = "Risk Management"
+  url = "risk-management"
+  weight = 1
 
   [[Languages.en.menu.main]]
   parent = "services"
   name = "Windows & App Updates"
   url = "updates"
-  weight = 4
+  weight = 1
 
 [[Languages.en.menu.main]]
 name = "standards"

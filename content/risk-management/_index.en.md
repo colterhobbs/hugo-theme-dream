@@ -1,6 +1,6 @@
 ---
 title: "Risk Management"
-date: 2021-07-06
+date: 2022-07-06
 icon: "ti-pulse"
 
 description: "Do you have documented risk assessments and mitigation plans for
@@ -38,7 +38,7 @@ We recommend **annual SRAs** (Security Risk Analysis) to identify the risks to y
 
 Of course, this is possible to do by searching Google for SRAs and you can certainly cobble together the documents and questionaires, watch YouTube videos to see how the process works, and you can probably figure it out on your own. But... **a DIY approach is a substantial investment in your time, you could spend many dozens of hours every year**. I would wager, though, that your time is too valuable for that. 
 
-We have a full-featured risk management application that provides all the tools, training and expertise to develop a dependable risk managment system. We can assist you in your SRA, we can develop your remediation plans, **and implement them** for you. And since we mentioned Phishing, we have access to AI-driven phishing filter systems to address that specific risk. We would be happy to talk to about what we can do for your business. 
+We have a full-featured risk management application that provides all the tools, training and expertise to develop a dependable risk managment system. We can assist you in your SRA, we can develop your remediation plans, **and implement them** for you. And since we mentioned Phishing, we have access to AI-driven phishing filter systems to address that specific risk. Here is [an example of the end-user training](https://security.pii-protect.com/youve-been-caught/?brand_key=we9lv) we provide for helping your staff understand Phishing risks. We would be happy to talk to about what we can do for your business. 
 
 #### [Download our CyberSecurity Booklet Here](http://localhost:1313/standards/cybersecurity/)
 #### [Request More Information](/contact/)
