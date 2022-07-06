@@ -38,7 +38,7 @@ You may ask, '*But, doesn't Google/Microsoft/Dropbox backup my data?*' The simpl
 
 We provide backup services for the major cloud companies, and the maintenance to help you protect your business. Here is our SaaS Backup service.
 
-{{< faq "Google Workspace & Office 365 Backup | $5/user/mo, 5 user minimum" >}}
+{{< faq "Google Workspace & Office 365 Backup | Starting at $50/mo" >}}
 
 #### Backup
 
