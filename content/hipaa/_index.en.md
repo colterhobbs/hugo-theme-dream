@@ -1,6 +1,6 @@
 ---
 title: "HIPAA Compliance"
-date: 2021-04-23
+date: 2022-07-18
 icon: "ti-thumb-up"
 
 description: "![Foo](/images/HIPAA-Website-Verified-Seal.png)"
