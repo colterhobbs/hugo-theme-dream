@@ -98,11 +98,11 @@ Backups that cannot be changed or deleted without checks and balances (if at all
 {{< faq "Deployment Option #1: Direct-to-Cloud without an Appliance | Starting at $50/mo" >}}
 Back up all remote endpoints, desktops, laptops, servers, and workstations, directly to the our Secure Backup Cloud, without any pricey appliances.
 
-Hardware-free means we can eliminate the high costs and complexities of appliances, including on-site visits, ongoing maintenance, unexpected failures, and stressful limitations. With our service Direct-to-Cloud (D2C), MSPs deliver rapid and reliable recovery across dispersed workforces regardless of how data is lost – be it ransomware or other cyberattack, accidental deletion, or natural disaster.
+Hardware-free means we can eliminate the high costs and complexities of appliances, including on-site visits, ongoing maintenance, unexpected failures, and stressful limitations. With our service Direct-to-Cloud (D2C), we deliver rapid and reliable recovery across dispersed workforces regardless of how data is lost – be it ransomware or other cyberattack, accidental deletion, or natural disaster.
 {{</ faq >}}
 
 {{< faq "Deployment Option #2: Hybrid Backup with an Appliance | Starting at $199/mo" >}}
-For clients seeking a traditional backup and disaster recovery (BDR) system, MSPs can offer our service with an appliance. Clients can choose to Bring Your Own Device (BYOD) or purchase or lease appliances from Axcient – as well as Bring Your Own Cloud (BYOC) or data center or replicate to Axcient’s cloud.
+For clients seeking a traditional backup and disaster recovery (BDR) system, we can offer our service with an appliance. Clients can choose to Bring Your Own Device (BYOD) or purchase or lease appliances from Axcient – as well as Bring Your Own Cloud (BYOC) or data center or replicate to Axcient’s cloud.
 
 Regardless, recovery speed and responsiveness to ransomware and other cyberthreats is best-in-class. Both deployment options ensure business continuity with a 15-minute recovery point objective (RPO) and less than a 1-hour recovery time objective (RTO).
 {{</ faq >}}
