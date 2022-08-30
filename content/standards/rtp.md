@@ -15,6 +15,10 @@ We also maintain a strong network of contract engineers that we can call on for
 specific expertise in high level or advanced customization of these core
 services.
 
+{{< notice info >}}
+We have are an Amazon affiliation, the links below may earn us a small commission.
+{{</ notice >}}
+
 # Hardware
 ## Networking
 ### Unifi Routing and Networking {#unifi}
