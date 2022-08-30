@@ -17,9 +17,43 @@ services.
 
 ## Recommended Technology Platform
 
-### Networking & Power Management
+### Unifi Routing and Networking
+We standardize on Unifi for networking gear. The following are the parts in our [RTP](#), or 'Recommended Technology Platform'.
 
-- Ubiquiti/UniFi
+#### Control Plane
+> For control over Unifi devices, we have two options, either Hosted by
+> JP Technical, or Self-hosted with a cloud key or Unifi Dream Machine
+> Router on-premise.
+
+For on-premise hosting:
+- [Ubiquiti Networks UniFi Cloud Key Gen2 (UCK-G2)](https://amzn.to/3cvmJTQ)
+- [Ubiquiti Networks UniFi Dream Machine SE | UDM-SE](https://amzn.to/3CIUN9L)
+- [Ubiquiti UniFi Dream Machine | UDM-US](https://amzn.to/3AWy09i)
+
+	
+#### Routers
+- [Ubiquiti Networks Networks Unifi Security Gateway (USG-PRO-4)](https://amzn.to/3AWy09i)
+- [Ubiquiti Networks Networks Unifi Security Gateway (USG)](https://amzn.to/3KuSdWW)
+- Routers for self-managed systems:
+	- [Ubiquiti Networks UniFi Dream Machine SE | UDM-SE](https://amzn.to/3CIUN9L)
+	- [Ubiquiti UniFi Dream Machine | UDM-US](https://amzn.to/3AWy09i)
+
+> All the following Unifi equipment with work either with the on-premise or hosted control planes.
+
+#### Switches
+- [USW-48-POE Ethernet Switch](https://amzn.to/3Qa79eo)
+- [USW-24-POE Ethernet Switch](https://amzn.to/3B0WQoE)
+- [Ubiquiti UniFi Switch Lite 16 PoE | 16-Port Gigabit Switch with 8 PoE+ 802.3at Ports (USW-Lite-16-PoE)](https://amzn.to/3KyfR4D)
+- [Ubiquiti UniFi Switch Lite 8 PoE | 8-Port Gigabit Switch with 4 PoE+ 802.3at Ports (USW-Lite-8-PoE)](https://amzn.to/3CMAdFw)
+- [Ubiquiti UniFi Switch Flex Mini | Managed 5-Port Gigabit Switch (USW-Flex-Mini)](https://amzn.to/3Q1SFwM)
+> The Flex Mini takes special configuration steps, this is not a customer-install item.
+
+#### Access Points
+We have found this specific Access Point to be the best overall performer. There are others for special circumstances.
+- [Ubiquiti Networks Unifi 802.11ac Dual-Radio PRO Access Point (UAP-AC-PRO-US)](https://amzn.to/3pXVepi)
+
+### Additional Networking & Power Management
+
 - Netgate/pfSense
 - APC Uninterruptible Power Systems
 - CyberPower Uninterruptible Power Systems
