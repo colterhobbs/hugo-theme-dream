@@ -17,7 +17,7 @@ services.
 
 # Hardware
 ## Networking
-### Unifi Routing and Networking
+### Unifi Routing and Networking {#unifi}
 We standardize on Unifi for networking gear. The following are the parts in our [RTP](#), or 'Recommended Technology Platform'.
 
 #### Control Plane
@@ -63,13 +63,16 @@ We have found this specific Access Point to be the best overall performer. There
 - Lenovo Servers
 - Lenovo Desktops & Laptops
 
-## Printers & All-In-Ones
+## Printers
+The following are the printers we recommend and support. While we may support
+other printers, these have been proven to be compatible with our tools and
+services, as well as meet our security requirements.
 > We have had great success with Brother brand printers in the last 10
 > years. They have proven to be affordable, durable and easy to support.
 - [Brother MFCL2750DWXL Compact Monochrome Multifunction Printer](https://amzn.to/3pXshty)
   - Good for single person operation or small groups.
 - [Brother MVCL5700DW Large Monochrome Multifunction Printer](https://amzn.to/3cB84Xu)
-  - Good for single person operation or small groups.
+  - Good for small groups.
 - [Brother MFCL2710DW Monochrome Multifunction Printer](https://amzn.to/3Q0H2qa)
   - Good for single person operation.
 - [Brother HL-L8360CDW Business Color Laser Printer](https://amzn.to/3AWCFrO)
