@@ -91,6 +91,7 @@ services, as well as meet our security requirements.
 ## Peripherals
 - [USB-C Hub](https://amzn.to/3cufdc7)
 - [USB-C Hub with Ethernet](https://amzn.to/3R3coh7)
+- [USB-C Hub with Ethernet & Dual HDMI](https://amzn.to/3Ts64kM)
 
 
 # Security
