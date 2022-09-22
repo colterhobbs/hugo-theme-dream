@@ -25,14 +25,12 @@ services.
 us a small commission.
 {{</ notice >}}
 
-# Hardware
-
 ## Networking
 
 ### Unifi Routing and Networking {#unifi}
 
 We standardize on Unifi for networking gear. The following are the parts in our
-[RTP](#), or 'Recommended Technology Platform'.
+RTP, or 'Recommended Technology Platform'.
 
 #### Control Plane
 
@@ -138,8 +136,9 @@ We have had limited successes with the following brands.
 - [USB-C Hub](https://amzn.to/3cufdc7)
 - [USB-C Hub with Ethernet](https://amzn.to/3R3coh7)
 - [USB-C Hub with Ethernet & Dual HDMI](https://amzn.to/3Ts64kM)
+- [Logitech MK545 Unifying Wireless Keyboard & Mouse Combo](https://amzn.to/3R8isUx)
 
-# Security
+## Security
 
 - Huntress Threat Hunting
 - CoFense Phishing Protection
