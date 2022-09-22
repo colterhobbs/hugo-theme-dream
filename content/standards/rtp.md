@@ -137,6 +137,7 @@ We have had limited successes with the following brands.
 - [USB-C Hub with Ethernet](https://amzn.to/3R3coh7)
 - [USB-C Hub with Ethernet & Dual HDMI](https://amzn.to/3Ts64kM)
 - [Logitech MK545 Unifying Wireless Keyboard & Mouse Combo](https://amzn.to/3R8isUx)
+- [Logitech MK850 Unifying & Bluetooth Wireless Keyboard & Mouse Combo](https://amzn.to/3y5lZg3)
 
 ## Security
 
