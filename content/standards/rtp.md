@@ -138,6 +138,11 @@ We have had limited successes with the following brands.
 - [USB-C Hub with Ethernet & Dual HDMI](https://amzn.to/3Ts64kM)
 - [Logitech MK545 Unifying Wireless Keyboard & Mouse Combo](https://amzn.to/3R8isUx)
 - [Logitech MK850 Unifying & Bluetooth Wireless Keyboard & Mouse Combo](https://amzn.to/3y5lZg3)
+- [Apple Magic Keyboard](https://amzn.to/3dznrAa)
+- [Apple Magic Keyboard with Touch-ID](https://amzn.to/3r0jIyF)
+- [Apple Magic Keyboard with Touch-ID and 10-key](https://amzn.to/3xHxR7G)
+- [Apple Magic Mouse](https://amzn.to/3R2TaHA)
+- [Apple Magic Trackpad](https://amzn.to/3Sm6yYu)
 
 ## Security
 
