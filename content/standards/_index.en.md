@@ -20,13 +20,13 @@ your technology resources with our industry best practices.
 
 There are a LOT of tools and systems we support, you may identify many of these
 already in use within your office. If you don't find your particular Line of
-Business application in this list, it does not mean we don't support it. 
+Business application in this list, it does not mean we don't support it.
 
 Click Here for our complete [Recommended Technology Platform](/standards/rtp)
 
 ## JP Technical General Terms and Conditions
 
 We also maintain an update General Terms & Conditions document. From time to
-time you may be notified of updates to this document. 
+time you may be notified of updates to this document.
 
 Click Here for our complete [General Terms & Conditions](/standards/tac)
