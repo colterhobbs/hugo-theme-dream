@@ -9,9 +9,10 @@ type: blog
 tags:
 - gmail
 ---
-Here is a quick video on how to view the headers in a Gmail message.  
+Here is a quick video on how to view the headers in a Gmail message.
 
-This is useful for troubleshooting the source and destination of emails, and determining if it is legit or a scam.
+This is useful for troubleshooting the source and destination of emails, and
+determining if it is legit or a scam.
 
-[How-to Show Headers in Gmail](https://www.youtube.com/watch?v=1EkeQRkznd4) 
-{{< youtube 1EkeQRkznd4 >}}
+[How-to Show Headers in Gmail](https://www.youtube.com/watch?v=1EkeQRkznd4) {{<
+youtube 1EkeQRkznd4 >}}
