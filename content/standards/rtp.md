@@ -144,7 +144,32 @@ We have had limited successes with the following brands.
 - [Apple Magic Mouse](https://amzn.to/3R2TaHA)
 - [Apple Magic Trackpad](https://amzn.to/3Sm6yYu)
 
-## Security
+## Security Hardware
+
+We have had great success with the Ring line of products. They are simple to
+use, intuitive, and their tech-support is top-notch. You will need to do some
+research to determine which features you need most, but any of the models
+below would be compatible with the systems we use. If wifi signal doesn't
+reach where you want your camera, email us at support@jptechnical.com and we
+can figure out what you need to improve signal there.
+
+Here are the devices we recommend.
+
+- [Ring Indoor Cam](https://amzn.to/3DTyjDI)
+- [Ring Stick Up Cam Battery](https://amzn.to/3r9inFQ)
+- [Ring Stick Up Cam Plug-In](https://amzn.to/3fofGxA)
+- [Ring Stick Up Cam Solar](https://amzn.to/3xZg105)
+- [Ring Floodlight Cam Wired Plus](https://amzn.to/3RiVGtr)
+- [Ring Floodlight Cam Plus - Plug-in power](https://amzn.to/3SG046X)
+- [Ring Floodlight Cam Wired Pro](https://amzn.to/3SBqq9T)
+- [Ring Floodlight Cam Pro - Plug-in power](https://amzn.to/3SkHYHB)
+- [Ring Spotlight Cam Battery HD](https://amzn.to/3CfvZWr)
+- [Ring Spotlight Cam Wired](https://amzn.to/3xWQd4I)
+- [Ring Spotlight Cam Solar](https://amzn.to/3Sj6k4N)
+
+## Software
+
+### Security
 
 - Huntress Threat Hunting
 - CoFense Phishing Protection
@@ -152,13 +177,13 @@ We have had limited successes with the following brands.
 - DNSFilter Protection
 - Webroot NextGen AV
 
-## Business Continuity & Disaster Recovery
+### Business Continuity & Disaster Recovery
 
 - MSP360 Cloud Backups
 - Axcient BDR/Cloud
 - CloudAlly SaaS Backup
 
-## Remote Access & Support
+### Remote Access & Support
 
 - Splashtop
 - Screenconnect
