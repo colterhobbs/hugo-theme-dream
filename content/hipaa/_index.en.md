@@ -3,7 +3,9 @@ title: "HIPAA Compliance"
 date: 2022-07-18
 icon: "ti-thumb-up"
 
-description: "![Foo](/images/HIPAA-Website-Verified-Seal.png)"
+description: "JP Technical has undergone an independant verification process
+for our HIPAA Compliance Measures <br>
+![Foo](/images/HIPAA-Website-Verified-Seal.png)"
 
 type : "docs"
 ---
