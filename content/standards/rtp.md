@@ -47,8 +47,8 @@ For on-premise hosting:
 
 #### Routers
 
-- [Ubiquiti Networks Networks Unifi Security Gateway
-  (USG-PRO-4)](https://amzn.to/3AWy09i)
+- [Ubiquiti Networks UniFi Next-Generation Gateway Pro
+  (UXG-PRO)](https://amzn.to/3B4xeqh)
 - [Ubiquiti Networks Networks Unifi Security Gateway
   (USG)](https://amzn.to/3KuSdWW)
 - Routers for self-managed systems:
