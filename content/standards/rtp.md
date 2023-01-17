@@ -101,6 +101,7 @@ There are others for special circumstances.
 - Dell Desktops & Laptops
 - Lenovo Servers
 - Lenovo Desktops & Laptops
+- [Budget Desktop by BeeLink](https://amzn.to/3CX5aGl)
 
 ## Printers
 
