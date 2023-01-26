@@ -83,6 +83,8 @@ For on-premise hosting:
 We have found this specific Access Point to be the best overall performer.
 There are others for special circumstances.
 
+- [Ubiquiti UniFi 6 Pro Access Point (U6-Pro-US)](https://amzn.to/407ITQg)
+
 - [Ubiquiti Networks Unifi 802.11ac Dual-Radio PRO Access Point
   (UAP-AC-PRO-US)](https://amzn.to/3pXVepi)
 
