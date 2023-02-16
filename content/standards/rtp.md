@@ -127,6 +127,10 @@ services, as well as meet our security requirements.
 - [Brother MFC-L8610CDW Business Multifunction Color Laser
   Printer](https://amzn.to/3crQTYp)
   - Good for small groups.
+- [Brother HL-L6200DW Wireless Monochrome Laser Printer with Duplex
+  Printing](https://amzn.to/3YDp41O)
+  - 520 sheet paper tray
+  - 12,000 high-yield toner cartridge available
 
 We have had limited successes with the following brands.
 
