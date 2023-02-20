@@ -94,9 +94,18 @@ There are others for special circumstances.
 - APC Uninterruptible Power Systems
 - CyberPower Uninterruptible Power Systems
 
+## Home Wi-Fi
+
+Our recommendations above are for business environments, we often are asked what
+we recommend for home use. We have found that the Google Nest products are among
+the simplest to set up, and maintain a good set of features at a reasonable price.
+
+- [Google Nest WiFi - AC2200 (2nd Generation) Router and Add On Access Point
+  Mesh Wi-Fi System (3-Pack, Snow)](https://amzn.to/3lSRxlK)
+
 ## Servers, Desktops & Laptops
 
-- Apple MacOS Desktops and Laptops
+- Apple macOS Desktops and Laptops
 - Carbon Systems Servers
 - Carbon Systems Desktops & Laptops
 - Dell Servers
