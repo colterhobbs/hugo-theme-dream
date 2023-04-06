@@ -134,7 +134,7 @@ for a small business.
 
 - [TP-Link TL-SG3452P | 48 Port Gigabit L2+ Managed PoE Switch | 48 PoE+ Port @384W, 4 x SFP Slots](https://amzn.to/3MpJFUk)
 - [TP-Link TL-SG2428P Jetstream 28-Port Gigabit Smart Switch with 24-Port PoE+, 4 SFP Slots (250 Watt Budget](https://amzn.to/3nUf86x)
-- [TP-Link TL-SG2218P JetStream 18-Port Gigabit Smart Switch with 16-Port PoE+](https://amzn.to/3ZPATlx)
+- [TP-Link TL-SG2218P | 16 Port Gigabit Smart Managed PoE Switch | 16 PoE+ Ports @150W, 2 SFP Slots](https://amzn.to/3KENPGk)
 - [TP-Link 5 Port Gigabit PoE Switch | 4 PoE+ Port @65W](https://amzn.to/40TQ3Yo)
   - This is not compatible with the Omada SDN Controller
 
