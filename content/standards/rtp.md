@@ -27,9 +27,21 @@ us a small commission.
 
 ## Networking
 
+### pfSense Routing & Firewall
+
+We recommend the Netgate products. Netgate is the maintainer for pfSense, the
+single most popular open-source firewall operating system. pfSense is used in
+large enterprises as well as small offices. We have been specializing in
+pfSense, and it's predecessor, since 2005. There are no licenses costs,
+hardware is easy to find and long-lasting.
+
+- [Netgate 2100 | max througput 250 Mbps](https://amzn.to/3MntDu7)
+- [Netgate 4100 | max througput 1.4 Gbps](https://amzn.to/3GjSwms)
+
 ### Unifi Routing and Networking {#unifi}
 
-We standardize on Unifi for networking gear. The following are the parts in our
+We have standardized on Unifi for networking gear. However, in recent years
+there has been an availability challenge. The following are the parts in our
 RTP, or 'Recommended Technology Platform'.
 
 #### Control Plane
@@ -56,7 +68,7 @@ For on-premise hosting:
     UDM-SE](https://amzn.to/3CIUN9L)
   - [Ubiquiti UniFi Dream Machine | UDM-US](https://amzn.to/3AWy09i)
 
-> All the following Unifi equipment with work either with the on-premise or
+> All the following Unifi equipment work either with the on-premise or
 > hosted control planes.
 
 #### Switches
@@ -88,9 +100,59 @@ There are others for special circumstances.
 - [Ubiquiti Networks Unifi 802.11ac Dual-Radio PRO Access Point
   (UAP-AC-PRO-US)](https://amzn.to/3pXVepi)
 
+### TP-Link Omada Routing and Networking {#omada}
+
+We have begun testing recently on the TP-Link Omada hardware. We are still
+early in our testing, but the product looks promising as a 'pro-sumer' line.
+The following are the parts in our RTP, or 'Recommended Technology Platform'.
+
+#### Control Plane
+
+> For control over Omada devices, we have two options, either a local hardware
+> device, or Self-hosted on a server or computer. We recommend the dedicated
+> controller.
+
+For on-premise hosting:
+
+- [TP-Link Omada Hardware Controller](https://amzn.to/3GLjlAr)
+  - This is a control plane ONLY.
+
+#### Routers
+
+Currently, we do not recommend TP-Link routing products. We recommend the
+pfSense routing product.
+
+> All the following TP-Link equipment work either with the on-premise or
+> hosted control planes.
+
+#### Switches
+
+We are still in the evaluation period with these products, but our early
+testing has been positive. The items below should cover the typical scenarios
+for a small business.
+
+- [TP-Link TL-SG3452P | 48 Port Gigabit L2+ Managed PoE Switch | 48 PoE+ Port @384W, 4 x SFP Slots](https://amzn.to/3MpJFUk)
+- [TP-Link TL-SG2428P Jetstream 28-Port Gigabit Smart Switch with 24-Port PoE+, 4 SFP Slots (250 Watt Budget](https://amzn.to/3nUf86x)
+- [TP-Link TL-SG1016PE | 16 Port Desktop Gigabit PoE Switch | 8 PoE+ Ports @150W](https://amzn.to/436ZftX)
+- [TP-Link 5 Port Gigabit PoE Switch | 4 PoE+ Port @65W](https://amzn.to/40TQ3Yo)
+  - This has not been tested with the Omada SDN Controller
+
+
+#### Access Points
+
+We are still in the evaluation period with these products, but our early
+testing has been positive. The items below should cover the typical scenarios
+for a small business.
+
+- [TP-Link EAP610 Ultra-Slim w/DC Power | Omada True Wi-Fi 6 AX1800 Wireless Gigabit Business Access Point](https://amzn.to/3nQmisP)
+  - This is the traditional access point typically mounted to the ceiling for
+    the best coverage.
+- [TP-Link EAP615-Wall | Omada Business WiFi 6 AX1800 in-Wall Wireless Gigabit Access Point](https://amzn.to/3nLIxQl)
+  - POE is required to power this access point.
+  - This wall-mount unit will give you coverage without losing a functional ethernet jack. In fact, you gain an extra two ports, one of which passes through the POE.
+
 ## Additional Networking & Power Management
 
-- Netgate/pfSense
 - APC Uninterruptible Power Systems
 - CyberPower Uninterruptible Power Systems
 
@@ -119,6 +181,7 @@ the simplest to set up, and maintain a good set of features at a reasonable pric
 The following are the printers we recommend and support. While we may support
 other printers, these have been proven to be compatible with our tools and
 services, as well as meet our security requirements.
+
 > We have had great success with Brother brand printers in the last 10 years.
 > They have proven to be affordable, durable and easy to support.
 
