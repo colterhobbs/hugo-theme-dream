@@ -223,6 +223,7 @@ We have had limited successes with the following brands.
 - [Apple Magic Keyboard with Touch-ID and 10-key](https://amzn.to/3xHxR7G)
 - [Apple Magic Mouse](https://amzn.to/3R2TaHA)
 - [Apple Magic Trackpad](https://amzn.to/3Sm6yYu)
+- [Microsoft Bluetooth Mobile Mouse 3600](https://amzn.to/42P53Hg)
 
 ## Security Hardware
 
