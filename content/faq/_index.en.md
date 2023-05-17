@@ -28,6 +28,14 @@ YUP! We have learned from more than 20 years in the business that we can provide
 
 {{</ faq >}}
 
+{{< faq "WHAT ARE THE ADVANTAGES OF MANAGED SERVICES?" >}}
+Managed IT services are one of the most cost-effective ways to maintain your IT environment if you're a small or medium-sized business. We provide scalable, affordable, and secure managed services. We focus on high-quality done quickly.
+
+
+![](/images/good-fast-cheap_pick-two.jpg)
+
+{{</ faq >}}
+
 {{< faq "WHAT KIND OF SERVICES DO YOU OFFER?" >}}
 We offer the following services, and more:
 - Microsoft & 3rd Party App Updates
@@ -58,3 +66,5 @@ We offer the following services, and more:
 - Server Backup & Distaster Recovery
 - Managed Compliance Services
 {{</ faq >}}
+
+
