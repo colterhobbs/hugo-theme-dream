@@ -224,6 +224,7 @@ We have had limited successes with the following brands.
 - [Apple Magic Mouse](https://amzn.to/3R2TaHA)
 - [Apple Magic Trackpad](https://amzn.to/3Sm6yYu)
 - [Microsoft Bluetooth Mobile Mouse 3600](https://amzn.to/42P53Hg)
+- [External USB 3.0 Portable CD/DVD +/-RW Drive, Windows, Linux, Apple](https://amzn.to/3NJomvV)
 
 ## Security Hardware
 
