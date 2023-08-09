@@ -35,8 +35,8 @@ large enterprises as well as small offices. We have been specializing in
 pfSense, and it's predecessor, since 2005. There are no licenses costs,
 hardware is easy to find and long-lasting.
 
-- [Netgate 2100 | max througput 250 Mbps](https://amzn.to/3MntDu7)
-- [Netgate 4100 | max througput 1.4 Gbps](https://amzn.to/3GjSwms)
+- [Netgate 2100 | max throughput 250 Mbps](https://amzn.to/3MntDu7)
+- [Netgate 4100 | max throughput 1.4 Gbps](https://amzn.to/3GjSwms)
 
 ### Unifi Routing and Networking {#unifi}
 
@@ -145,6 +145,9 @@ We are still in the evaluation period with these products, but our early
 testing has been positive. The items below should cover the typical scenarios
 for a small business.
 
+- [TP-Link EAP650 Ultra-Slim Wireless Access Point | Omada True WiFi 6 AX3000 Gagabit Professionl Access Point](https://amzn.to/3OP2v81)
+  - This is the traditional access point typically mounted to the ceiling for
+    the best coverage.
 - [TP-Link EAP610 Ultra-Slim w/DC Power | Omada True Wi-Fi 6 AX1800 Wireless Gigabit Business Access Point](https://amzn.to/3nQmisP)
   - This is the traditional access point typically mounted to the ceiling for
     the best coverage.
