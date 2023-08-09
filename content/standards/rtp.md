@@ -114,7 +114,7 @@ The following are the parts in our RTP, or 'Recommended Technology Platform'.
 
 For on-premise hosting:
 
-- [TP-Link Omada Hardware Controller OC300 (up to 500 devices)](https://amzn.to/3GLjlAr)
+- [TP-Link Omada Hardware Controller OC300 (up to 500 devices)](https://amzn.to/47o0DdD)
 - [TP-Link Omada Hardware Controller OC200 (up to 100 devices)](https://amzn.to/3GLjlAr)
   - This is a control plane ONLY.
 
