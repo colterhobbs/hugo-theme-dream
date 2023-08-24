@@ -75,7 +75,7 @@ copyright = "Copyright ©JP Technical, 2022"
 # banner
 [Languages.en.params.banner]
 title = "Specializing in IT management for small businesses with compliance needs."
-subtitle = "At JP Technical, we build our managed services around basic Cybersecurity and Regulatory Compliance. We are fully HIPAA compliant, and we have implemented the CIS Critical Security Controls Implementation Group1 (IG1) framework. More importantly, we have the tools and partners to help *YOU* to do so as well. Let us help you develop a fully managed technology program."
+subtitle = "At JP Technical, we provide local Anchorage Businesses managed services with emphasis on basic Cybersecurity and Regulatory Compliance. We are fully HIPAA compliant, and we have implemented the CIS Critical Security Controls Implementation Group1 (IG1) framework. More importantly, we have the tools and partners to help *YOU* to do so as well. Let us help you develop a fully managed technology program. If you run a small business in Anchorage, Alaska, call us today for a free Security Risk Assessment."
 bg_image = "images/banner.webp"
 placeholder = "Have a question? Search this site."
 
