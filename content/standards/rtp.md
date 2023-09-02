@@ -117,11 +117,23 @@ For on-premise hosting:
 - [TP-Link Omada Hardware Controller OC300 (up to 500 devices)](https://amzn.to/47o0DdD)
 - [TP-Link Omada Hardware Controller OC200 (up to 100 devices)](https://amzn.to/3GLjlAr)
   - This is a control plane ONLY.
+- [TP-Link ER605 V2 Wired Gigabit VPN Router](https://amzn.to/3qZO7kb)
+  - This router requires a separate controller.
 
 #### Routers
 
-Currently, we do not recommend TP-Link routing products. We recommend the
-pfSense routing product.
+Currently, we have limited real-world testing with the Omada Routing products.
+However, in the limited testing we have done the products perform admirably.
+All of their routing products have VPN capabilities and are capable of being
+managed from a central controller, and in the case of the top-end model a
+controller built-in. An Omada Controller is recommended.
+
+- [TP-Link ER7212PC | Omada Router, PoE Switch & Controller 3-in-1 Gigabit VPN Router](https://amzn.to/3qYjMmc)
+  - This router has a built-in controller.
+- [TP-Link ER7206 Multi-WAN Professional Wired Gigabit VPN Router](https://amzn.to/3PjD26W)
+  - This router requires a separate controller.
+- [TP-Link ER605 V2 Wired Gigabit VPN Router](https://amzn.to/3qZO7kb)
+  - This router requires a separate controller.
 
 > All the following TP-Link equipment work either with the on-premise or
 > hosted control planes.
