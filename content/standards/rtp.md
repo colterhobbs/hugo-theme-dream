@@ -201,22 +201,19 @@ services, as well as meet our security requirements.
 > We have had great success with Brother brand printers in the last 10 years.
 > They have proven to be affordable, durable and easy to support.
 
-- [Brother MFCL2710DW Monochrome Multifunction
-  Printer](https://amzn.to/3Q0H2qa)
+- [Brother MFCL2710DW Personal Monochrome Multifunction Printer](https://amzn.to/3Q0H2qa)
   - Good for single person operation.
-- [Brother MFCL2750DWXL Compact Monochrome Multifunction
-  Printer](https://amzn.to/3pXshty)
+- [Brother MFCL2750DWXL Personal Monochrome Multifunction Printer](https://amzn.to/3pXshty)
   - Good for single person operation or small groups.
-- [Brother MVCL5700DW Large Monochrome Multifunction
-  Printer](https://amzn.to/3cB84Xu)
+- [Brother MVCL5700DW Business Monochrome Multifunction Printer](https://amzn.to/3cB84Xu)
   - Good for small groups.
 - [Brother HL-L8360CDW Business Color Laser Printer](https://amzn.to/3AWCFrO)
   - Good for single person operation or small groups.
-- [Brother MFC-L8610CDW Business Multifunction Color Laser
-  Printer](https://amzn.to/3crQTYp)
+- [Brother MFC-L3750CDW Personal Multifunction Color Laser Printer](https://amzn.to/46YG5XN)
+  - Good for single person operation.
+- [Brother MFC-L8610CDW Business Multifunction Color Laser Printer](https://amzn.to/3crQTYp)
   - Good for small groups.
-- [Brother HL-L6200DW Wireless Monochrome Laser Printer with Duplex
-  Printing](https://amzn.to/3YDp41O)
+- [Brother HL-L6200DW Wireless Monochrome Laser Printer with Duplex Printing](https://amzn.to/3YDp41O)
   - 520 sheet paper tray
   - 12,000 high-yield toner cartridge available
 
