@@ -25,11 +25,11 @@ DEBUG=0
 INSECURE=0
 NOMESH=0
 
-agentDL='https://agents.tacticalrmm.com/api/v2/agents/?version=2.5.0&arch=amd64&token=f853d451-6c02-4961-91bb-6e6958994d4f&plat=linux&api=api.jptech.support'
+agentDL='https://agents.tacticalrmm.com/api/v2/agents/?version=2.6.0&arch=amd64&token=f853d451-6c02-4961-91bb-6e6958994d4f&plat=linux&api=api.jptech.support'
 meshDL='https://mesh.jptech.support/meshagents?id=Q6920YxbqUC7eCGT@tf$etg22IeZIK6t6MIaiIYltj4bMiobmIX@XY@QtJb64mpJ&installflags=2&meshinstall=6'
 
 apiURL='https://api.jptech.support'
-token='6b4e153e04ae8d53f696ac64f9f2736450b8cfd3a96aef85336fad4f5f7d32cf'
+token='d9c3d39ad7cc8b6f9d20f2cb520f98dcdf36e855e7f9f3c22ce64cdca0064fb8'
 clientID='30'
 siteID='33'
 agentType='server'
