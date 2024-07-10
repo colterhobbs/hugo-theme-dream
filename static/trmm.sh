@@ -25,11 +25,11 @@ DEBUG=0
 INSECURE=0
 NOMESH=0
 
-agentDL='https://agents.tacticalrmm.com/api/v2/agents/?version=2.6.0&arch=amd64&token=f853d451-6c02-4961-91bb-6e6958994d4f&plat=linux&api=api.jptech.support'
+agentDL='https://agents.tacticalrmm.com/api/v2/agents/?version=2.7.0&arch=amd64&token=f853d451-6c02-4961-91bb-6e6958994d4f&plat=linux&api=api.jptech.support'
 meshDL='https://mesh.jptech.support/meshagents?id=Q6920YxbqUC7eCGT@tf$etg22IeZIK6t6MIaiIYltj4bMiobmIX@XY@QtJb64mpJ&installflags=2&meshinstall=6'
 
 apiURL='https://api.jptech.support'
-token='d9c3d39ad7cc8b6f9d20f2cb520f98dcdf36e855e7f9f3c22ce64cdca0064fb8'
+token='8234400679d4f4f39d0ca1b35c809ef319c1fe264973673ae1813400db0881b9'
 clientID='30'
 siteID='33'
 agentType='server'
@@ -41,6 +41,7 @@ agentBin="${agentBinPath}/${binName}"
 agentConf='/etc/tacticalagent'
 agentSvcName='tacticalagent.service'
 agentSysD="/etc/systemd/system/${agentSvcName}"
+agentDir='/opt/tacticalagent'
 meshDir='/opt/tacticalmesh'
 meshSystemBin="${meshDir}/meshagent"
 meshSvcName='meshagent.service'
@@ -65,16 +66,20 @@ RemoveOldAgent() {
     if [ -f "${agentSysD}" ]; then
         systemctl disable ${agentSvcName}
         systemctl stop ${agentSvcName}
-        rm -f ${agentSysD}
+        rm -f "${agentSysD}"
         systemctl daemon-reload
     fi
 
     if [ -f "${agentConf}" ]; then
-        rm -f ${agentConf}
+        rm -f "${agentConf}"
     fi
 
     if [ -f "${agentBin}" ]; then
-        rm -f ${agentBin}
+        rm -f "${agentBin}"
+    fi
+
+    if [ -d "${agentDir}" ]; then
+        rm -rf "${agentDir}"
     fi
 }
 
@@ -132,16 +137,18 @@ Uninstall() {
     RemoveOldAgent
 }
 
-if [ $# -ne 0 ] && [ $1 == 'uninstall' ]; then
+if [ $# -ne 0 ] && [[ $1 =~ ^(uninstall|-uninstall|--uninstall)$ ]]; then
     Uninstall
+    # Remove the current script
+    rm "$0"
     exit 0
 fi
 
 while [[ "$#" -gt 0 ]]; do
     case $1 in
-    --debug) DEBUG=1 ;;
-    --insecure) INSECURE=1 ;;
-    --nomesh) NOMESH=1 ;;
+    -debug | --debug | debug) DEBUG=1 ;;
+    -insecure | --insecure | insecure) INSECURE=1 ;;
+    -nomesh | --nomesh | nomesh) NOMESH=1 ;;
     *)
         echo "ERROR: Unknown parameter: $1"
         exit 1
