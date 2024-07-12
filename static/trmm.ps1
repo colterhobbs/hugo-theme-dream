@@ -6,8 +6,8 @@ $siteid = '33'
 $agenttype = '"workstation"'
 $power = 0
 $rdp = 0
-$ping = 0
-$auth = '"93af22091a281fe40df9fd66b9382237aadaab72a0916e28a513e165abecad5d"'
+$ping = 1
+$auth = '"001ccfe3de532f1f34fabaee8ba46f4cea6712a24400494a718e43929f1eeb60"'
 $downloadlink = 'https://agents.tacticalrmm.com/api/v2/agents/?version=2.7.0&arch=amd64&token=f853d451-6c02-4961-91bb-6e6958994d4f&plat=windows&api=api.jptech.support'
 $apilink = $downloadlink.split('/')
 
