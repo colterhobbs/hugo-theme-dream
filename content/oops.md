@@ -7,4 +7,4 @@ date: 2025-05-01
 
 We made a note and will see if we can figure out what went wrong. In the meantime, please enjoy this dancing banana from the 90s. 
 
-[![Dancing Banana](/images/dancing_banana.gif) ]
+![Dancing Banana](/images/dancing_banana.gif)
