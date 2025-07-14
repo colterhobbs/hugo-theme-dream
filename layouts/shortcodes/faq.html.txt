@@ -1,0 +1,8 @@
+<details style="margin-bottom:1em;">
+  <summary style="font-weight:bold; cursor:pointer;">
+    {{ .Get "question" }}
+  </summary>
+  <div style="margin-top:0.5em;">
+    {{ .Inner | markdownify }}
+  </div>
+</details>
