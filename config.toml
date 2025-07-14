@@ -76,7 +76,7 @@ copyright = "Copyright ©JP Technical, 2022"
 [Languages.en.params.banner]
 title = "Is Your Business At Risk?</br> It Doesn't Have To Be!"
 subtitle = "At JP Technical, we provide local Anchorage businesses with managed services, and an emphasis on Cybersecurity and Regulatory Compliance. We are fully HIPAA compliant, and we have applied the modern standards for cybersecurity, in our OWN business. More importantly, we have the tools and partners to help *YOU* to do so as well. <br><br>Let us help you **_SECURE YOUR BUSINESS_**, before it's too late. If you run a small business in Anchorage, Alaska, call us today for a free Security Risk Assessment, 907-748-2200."
-bg_image = "images/banner.webp"
+bg_image = "images/banner.gif"
 placeholder = "Have a question? Search this site."
 
 # call to action
