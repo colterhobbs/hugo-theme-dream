@@ -1,6 +1,3 @@
-[submodule "themes/hugo-dot-theme"]
-	path = themes/hugo-dot-theme
-	url = git@gitlab.com:jptechnical/hugo-dot-theme.git
 [submodule "dot-hugo"]
 	path = dot-hugo
 	url = https://github.com/gethugothemes/dot-hugo.git
