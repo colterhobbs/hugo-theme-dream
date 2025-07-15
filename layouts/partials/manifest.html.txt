@@ -1,0 +1,2 @@
+<!-- layouts/partials/manifest.html -->
+<link rel="manifest" href="/manifest.webmanifest">
