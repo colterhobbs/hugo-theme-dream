@@ -21,36 +21,23 @@ $font-secondary: '{{replace (replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" .f
 $font-icon: '{{.font_icon | default "Font Awesome 5 Free"}}';
 {{ end }}
 
-@import 'templates/bootstrap';
-
-@import 'preloader';
-
-@import 'mixins';
-
-@import 'typography';
-
-@import 'buttons';
-
-@import 'common';
-
-@import 'templates/navigation';
-
-@import 'templates/main';
-
-@import 'notice';
-
-@import 'tabs';
-
-@import 'collapse';
-
-@import 'social-share';
-
-@import 'toc';
-
-@import 'custom';
-
-@import 'search';
+@import '../bootstrap/scss/functions';
+@import '../bootstrap/scss/variables';
+@import '../bootstrap/scss/preloader';
+@import '../bootstrap/scss/mixins';
+@import '../bootstrap/scss/typography';
+@import '../bootstrap/scss/buttons';
+@import '../bootstrap/scss/common';
+@import '../bootstrap/scss/templates/navigation';
+@import '../bootstrap/scss/templates/main';
+@import '../bootstrap/scss/notice';
+@import '../bootstrap/scss/tabs';
+@import '../bootstrap/scss/collapse';
+@import '../bootstrap/scss/social-share';
+@import '../bootstrap/scss/toc';
+@import '../bootstrap/scss/custom';
+@import '../bootstrap/scss/search';
 
 {{ if site.Params.image_gallery }}
-@import 'gallery';
+@import '../bootstrap/scss/gallery';
 {{ end }}
