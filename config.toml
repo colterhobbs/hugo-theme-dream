@@ -19,9 +19,9 @@ unsafe = true
 # logo is for all page
 # logo = "/images/logo.png"
 # logo white is for homepage logo, you can use colorful logo too...
-# logo_white = "/images/logo-white.png"
+# logo_white = "/static/images/logo.png"
 # when logo is empty, it will shown your site title
-googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
+googleAnalytics = "UA-17780827-1" # paste your analytics ID here. (Ex: UA-123-45)
 
 # customize color
 primary_color = "#003366"
@@ -43,10 +43,10 @@ contact_form_action = "https://formspree.io/f/xqkwezry" # contact form works wit
 ############################## social links ##############################
 
 # [[params.social]]
-# # icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-# icon = "facebook" # simpleicons.org
-# name = "Facebook"
-# link = "#"
+# # icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+# icon = "instagram" # simpleicons.org
+# name = "Instagram"
+# link = "https://www.instagram.com/jptech_ak/"
 
 # [[params.social]]
 # # icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
@@ -71,12 +71,12 @@ contact_form_action = "https://formspree.io/f/xqkwezry" # contact form works wit
 languageName = "En"
 languageCode = "en-us"
 weight = 1
-copyright = "Copyright ©JP Technical, 2022" 
+copyright = "Copyright ©JP Technical, 2025" 
 # banner
 [Languages.en.params.banner]
 title = "Is Your Business At Risk?</br> It Doesn't Have To Be!"
 subtitle = "At JP Technical, we provide local Anchorage businesses with managed services, and an emphasis on Cybersecurity and Regulatory Compliance. We are fully HIPAA compliant, and we have applied the modern standards for cybersecurity, in our OWN business. More importantly, we have the tools and partners to help *YOU* to do so as well. <br><br>Let us help you **_SECURE YOUR BUSINESS_**, before it's too late. If you run a small business in Anchorage, Alaska, call us today for a free Security Risk Assessment, 907-748-2200."
-bg_image = "images/banner.gif"
+bg_image = "/static/images/banner.gif"
 placeholder = "Have a question? Search this site."
 
 # call to action
