@@ -6,10 +6,6 @@ type: "page"
 
 
 <style>
-  body {
-    margin: 0;
-    background: linear-gradient(to bottom, #000000 0%, #f18f38 25%, #f18f38 100%);
-  }
 
   .banner-container {
     text-align: center;
@@ -43,7 +39,7 @@ type: "page"
 
   .hero-gradient {
   background: linear-gradient(to bottom, #000000ff 0%, #f18f38 100%);
-  padding-top: 1rem;
+  padding-top: 0rem;
   padding-bottom: 3rem;
 }
 
