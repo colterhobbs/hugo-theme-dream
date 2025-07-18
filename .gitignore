@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 .sfn
 .DS_Store
 public
 .hugo_build.lock
+=======
+.DS_Store
+
+/node_modules
+
+Thumbs.db
+>>>>>>> refs/remotes/origin/master
