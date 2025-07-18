@@ -2,7 +2,7 @@
 # provide your domain here
 baseURL = "https://jptechnical.com"
 # theme
-theme = "dream"
+theme = "hugo-theme-dream"
 disqusShortname = ""
 # site title
 title = "JP | Technical - 907-748-2200"
