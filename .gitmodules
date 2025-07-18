@@ -1,6 +1,3 @@
-[submodule "dot-hugo"]
-	path = dot-hugo
-	url = https://github.com/gethugothemes/dot-hugo.git
 [submodule "themes/dream"]
 	path = themes/dream
-	url = https://github.com/Darthagnon/hugo-theme-dream.git
+	url = https://github.com/colterhobbs/hugo-theme-dream.git
