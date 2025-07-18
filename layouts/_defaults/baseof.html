@@ -73,10 +73,6 @@
     <script src="{{ . | relURL }}"></script>
     {{ end }}
 
-    {{/* if .Site.GoogleAnalytics */}}
-    {{/* template "_internal/google_analytics_async.html" . */}}
-    {{/* end */}}
-
     <script>
   window.addEventListener('DOMContentLoaded', (event) => {
     new PagefindUI({
@@ -85,6 +81,18 @@
     });
   });
 </script>
+
+{{ if .Site.GoogleAnalytics }}
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ .Site.GoogleAnalytics }}');
+</script>
+{{ end }}
+
 
   </body>
 </html>

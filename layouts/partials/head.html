@@ -1,5 +1,4 @@
 {{ if isset .Site.Params "favicon" }}
-<<<<<<< HEAD
 <head>
   <!-- Primary favicon (always first) -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -15,11 +14,8 @@
   <!-- PWA support -->
   <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#000000">
-</head>{{ end }}
-=======
-<link href="{{ .Site.Params.favicon }}" rel="shortcut icon" type="image/x-icon" />
+</head>
 {{ end }}
->>>>>>> refs/remotes/origin/master
 
 <!-- Site permissions policy: Degoogle: Opt out of Google FLoC, src: https://github.dihe.moe/Donearm/donearm.github.com/commit/31892e66c27c2b0b251185ef5c38b9762703cf36 -->
 <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
@@ -110,9 +106,6 @@
   }
   {{ end }}
 </style>
-<<<<<<< HEAD
 
 <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/_pagefind/pagefind-ui.js"></script>
-=======
->>>>>>> refs/remotes/origin/master

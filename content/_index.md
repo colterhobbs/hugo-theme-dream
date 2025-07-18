@@ -4,13 +4,6 @@ description: "Alaska’s Trusted IT Partner"
 type: "page"
 ---
 
-<script>
-  // Ensure Semantic UI dropdown activates
-  $(document).ready(function() {
-    $('.ui.dropdown').dropdown();
-  });
-</script>
-
 <style>
   body {
     margin: 0;
@@ -47,7 +40,7 @@ type: "page"
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   }
 
-</*>.hero-gradient {
+.hero-gradient {
   height: 100vh;               /* Fill the entire viewport height */
   width: 100%;                 /* Full width */
   position: relative;          /* Keep any absolutely positioned elements relative to this */

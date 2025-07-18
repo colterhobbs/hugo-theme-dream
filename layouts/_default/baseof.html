@@ -23,7 +23,7 @@
           <div class="dream-max-width">
             {{ block "main" . }} {{ end }}
 
-            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+           <!--- <footer class="ui basic center aligned segment" style="background-color: transparent;">
               {{ if .Site.Params.siteStartYear }}
               <p>© {{ if eq now.Year .Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ .Site.Params.siteStartYear }} - {{ now.Year }}{{ end }} {{ .Site.Title }}</p>
               {{ else }}
@@ -34,7 +34,7 @@
 
               {{ if .Site.Params.footerBottomText }}
               <p>{{ .Site.Params.footerBottomText | safeHTML }}</p>
-              {{ end }}
+              {{ end }}--->
             </footer>
           </div>
         </section>
@@ -72,8 +72,15 @@
     <script src="{{ . | relURL }}"></script>
     {{ end }}
 
-    {{ if .Site.GoogleAnalytics }}
-    {{ template "_internal/google_analytics_async.html" . }}
-    {{ end }}
+{{ with site.Params.googleAnalytics }}
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>
+{{ end }}
   </body>
 </html>
