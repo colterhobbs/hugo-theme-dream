@@ -6,6 +6,10 @@ type: "page"
 
 
 <style>
+  body {
+    margin: 0;
+    background: linear-gradient(to bottom, #000000 0%, #f18f38 25%, #f18f38 100%);
+  }
 
   .banner-container {
     text-align: center;
@@ -37,10 +41,12 @@ type: "page"
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   }
 
-  .hero-gradient {
-  background: linear-gradient(to bottom, #000000ff 0%, #f18f38 100%);
-  padding-top: 0rem;
-  padding-bottom: 3rem;
+.hero-gradient {
+  height: 100vh;               /* Fill the entire viewport height */
+  width: 100%;                 /* Full width */
+  position: relative;          /* Keep any absolutely positioned elements relative to this */
+  background: linear-gradient(to bottom, #000000, #f18f38); /* From black to orange */
+  z-index: -1;                 /* Send it behind other content if needed */
 }
 
 .banner-image {
