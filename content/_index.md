@@ -4,6 +4,12 @@ description: "Alaska’s Trusted IT Partner"
 type: "page"
 ---
 
+<script>
+  // Ensure Semantic UI dropdown activates
+  $(document).ready(function() {
+    $('.ui.dropdown').dropdown();
+  });
+</script>
 
 <style>
   body {
