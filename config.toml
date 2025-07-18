@@ -1,27 +1,32 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "/"
+baseURL = "https://jptechnical.com"
 # theme
-theme = "dot-hugo"
+theme = "dream"
+disqusShortname = ""
 # site title
-title = "JP|Technical - 907-748-2200"
+title = "JP | Technical - 907-748-2200"
 # disable language
 disableLanguages = [1]
 # google analytics
-# googleAnalytics = "UA-17780827-1"
+# googleAnalytics = "UA-17780827-1" 
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
 
 
+
 ############################# Default Parameters ##########################
 [params]
 # logo is for all page
-# logo = "/images/logo.png"
+# logo = "/static/images/logo.png"
 # logo white is for homepage logo, you can use colorful logo too...
 # logo_white = "/static/images/logo.png"
 # when logo is empty, it will shown your site title
-googleAnalytics = "UA-17780827-1" # paste your analytics ID here. (Ex: UA-123-45)
+googleAnalytics = "UA-17780827-1" # paste your analytics ID here. (UA-17780827-1)
+disqusShortname = ""
+customCSS = ["css/custom.css"]
+favicon = "/images/favicon.ico"
 
 # customize color
 primary_color = "#003366"
@@ -184,68 +189,3 @@ name = "billing portal"
 url = "billing"
 weight = 6
 
-# ################################### Franch Language ######################
-# [Languages.fr]
-# languageName = "Fr"
-# languageCode = "fr-fr"
-# weight = 2
-# copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
-#
-# # banner
-# [Languages.fr.params.banner]
-# title = "Comment pouvons nous aider?"
-# subtitle = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
-# bg_image = "images/banner.jpg"
-# placeholder = "Avoir une question? Il suffit de demander ici ou de saisir les termes"
-#
-# # call to action
-# [Languages.fr.params.cta]
-# enable = true
-# title = "Vous n'avez pas trouvé de réponse à votre question?"
-# content = "Contactez-nous pour plus de détails sur les services supplémentaires et la tarification du travail personnalisé"
-# # call to action button
-# [Languages.fr.params.cta.button]
-# enable = true
-# label = "Contactez nous"
-# link = "contact"
-#
-#
-# ################## french navigation #################
-# [[Languages.fr.menu.main]]
-# name = "Accueil"
-# url = "/"
-# weight = 1
-#
-# [[Languages.fr.menu.main]]
-# name = "Faq"
-# url = "faq"
-# weight = 2
-#
-# [[Languages.fr.menu.main]]
-# name = "contact"
-# url = "contact"
-# weight = 3
-#
-# # Dropdown menu
-# [[Languages.fr.menu.main]]
-# weight = 4
-# name = "docs"
-# hasChildren = true
-#
-#   [[Languages.fr.menu.main]]
-#   parent = "docs"
-#   name = "Installation"
-#   url = "installation"
-#   weight = 1
-#
-#   [[Languages.fr.menu.main]]
-#   parent = "docs"
-#   name = "Billing and Pricing"
-#   url = "billing-pricing"
-#   weight = 2
-#
-#   [[Languages.fr.menu.main]]
-#   parent = "docs"
-#   name = "Features"
-#   url = "features"
-#   weight = 3

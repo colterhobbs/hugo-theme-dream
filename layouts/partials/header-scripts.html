@@ -1,2 +1,26 @@
-<!-- layouts/partials/header-scripts.html -->
-<!-- Place any additional header scripts here -->
+<header class="ui basic very padded segment dream-header">
+  <nav class="ui menu">
+  <div class="ui container">
+    <a class="item" href="/">Home</a>
+    <div class="ui dropdown item">
+      Services <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item" href="/services/#networking">Networking</a>
+        <a class="item" href="/services/#compliance">Compliance</a>
+        <a class="item" href="/services/#support">Support</a>
+      </div>
+    </div>
+    <a class="item" href="/pricing">Pricing</a>
+    <a class="item" href="/contact">Contact</a>
+  </div>
+</nav>
+
+<script>
+  // Enable dropdown
+  document.addEventListener("DOMContentLoaded", function () {
+    $('.ui.dropdown').dropdown();
+  });
+</script>
+
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/_pagefind/pagefind-ui.js"></script>

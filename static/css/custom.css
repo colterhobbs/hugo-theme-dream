@@ -1,0 +1,31 @@
+body.default {
+ background: solid (to bottom, #000000ff);  color: #222;
+}
+
+.dream-header {
+  background: rgba(0, 0, 0, 0.7) !important;
+  padding: 1em !important;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+
+.ui.menu {
+  margin-bottom: 1em;
+  z-index: 9999;
+  background-color: #000000;
+}
+
+.ui.menu .item {
+  font-weight: bold;
+}
+
+.hero-gradient {
+  background: linear-gradient(to bottom, #000000 0%, #f18f38 100%);
+  padding: 2rem 0;
+}
+
+.banner-image {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}

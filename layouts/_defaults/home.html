@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <div class="container">
+    <!-- Full-Screen Banner Section -->
+    <section style="background: url('/static/images/banner.gif') no-repeat center center; background-size: cover; height: 100vh; position: relative;">
+      <!-- Navigation -->
+      <nav style="position: absolute; top: 20px; right: 20px; background: rgba(0, 0, 0, 0.6); padding: 1rem 2rem; border-radius: 8px;">
+        <ul style="list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0;">
+          <li><a href="/" style="color: white; text-decoration: none;">Home</a></li>
+          <li><a href="/services" style="color: white; text-decoration: none;">Services</a></li>
+          <li><a href="/pricing" style="color: white; text-decoration: none;">Pricing</a></li>
+          <li><a href="/cybersecurity-self-exam" style="color: white; text-decoration: none;">Cybersecurity Self Exam</a></li>
+          <li><a href="/hipaa" style="color: white; text-decoration: none;">HIPAA Compliance</a></li>
+          <li><a href="/contact" style="color: white; text-decoration: none;">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- Title Below Banner -->
+    <section style="padding: 3rem 2rem; text-align: center; background: rgb(0, 0, 0);">
+      <h1 style="font-size: 3rem; margin-bottom: 1rem;">JP Technical</h1>
+      <p style="font-size: 1.5rem; color: #555;">Alaska’s Trusted IT Partner</p>
+    </section>
+
+    <!-- Who We Are Section -->
+    <section style="padding: 4rem 2rem; background: #013366; color: rgb(0, 0, 0); text-align: center;">
+      <h2>Who We Are</h2>
+      <p style="max-width: 800px; margin: 1rem auto;">
+        JP Technical is a full-service IT provider based in Anchorage, Alaska. We support businesses across the state with networking, support, compliance, and modernization. Whether you need help with your infrastructure or a trusted partner for day-to-day operations — we’ve got you covered.
+      </p>
+    </section>
+
+    <!-- Contact Button Section -->
+    <section style="padding: 4rem 2rem; text-align: center; background: #000000;">
+      <a href="/contact" style="display: inline-block; background: #f38f18; color: rgb(0, 0, 0); padding: 1rem 2rem; font-size: 1.2rem; border-radius: 8px; text-decoration: none;">Get in Touch</a>
+    </section>
+  </div>
+{{ end }}
