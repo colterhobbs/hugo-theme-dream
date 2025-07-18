@@ -1,32 +1,46 @@
-<!-- layouts/index.html -->
-{{ define "main" }}
-  <div class="container">
-    <!-- Full-Screen Banner Section -->
-    <section style="background: url('/static/images/banner.gif') no-repeat center center; background-size: cover; height: 100vh; display: flex; align-items: center; justify-content: center; position: relative;">
-      <!-- Navigation -->
-      <nav style="position: absolute; top: 20px; right: 20px; background: rgba(0, 0, 0, 0.6); padding: 1rem 2rem; border-radius: 8px;">
-        <ul style="list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0;">
-          <li><a href="/" style="color: white; text-decoration: none;">Home</a></li>
-          <li><a href="/services" style="color: white; text-decoration: none;">Services</a></li>
-          <li><a href="/pricing" style="color: white; text-decoration: none;">Pricing</a></li>
-          <li><a href="/cybersecurity-self-exam" style="color: white; text-decoration: none;">Cybersecurity Self Exam</a></li>
-          <li><a href="/hipaa" style="color: white; text-decoration: none;">HIPAA Compliance</a></li>
-          <li><a href="/contact" style="color: white; text-decoration: none;">Contact</a></li>
-        </ul>
-      </nav>
-    </section>
+{{ define "title" }}
+{{- if or (eq .Data.Singular "tag") (eq .Data.Singular "category") -}}
+{{ .Data.Term }}
+{{- end -}}
+{{ end }}
 
-    <!-- Who We Are Section -->
-    <section style="padding: 4rem 2rem; background: #013366; color: white; text-align: center;">
-      <h2>Who We Are</h2>
-      <p style="max-width: 800px; margin: 1rem auto;">
-        JP Technical is a full-service IT provider based in Anchorage, Alaska. We support businesses across the state with networking, support, compliance, and modernization. Whether you need help with your infrastructure or a trusted partner for day-to-day operations — we’ve got you covered.
-      </p>
-    </section>
+{{ define "main"}}
 
-    <!-- Contact Button Section -->
-    <section style="padding: 4rem 2rem; text-align: center; background: #f8f8f8;">
-      <a href="/contact" style="display: inline-block; background: #f38f18; color: white; padding: 1rem 2rem; font-size: 1.2rem; border-radius: 8px; text-decoration: none;">Get in Touch</a>
-    </section>
+{{ partial "header.html" . }}
+
+<div class="ui relaxed grid dream-grid">
+  {{ $paginator := .Paginate .Pages }}
+  {{ range $paginator.Pages }}
+  <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    {{ .Render "summary" }}
   </div>
+  {{ end }}
+
+  {{ if or $paginator.HasPrev $paginator.HasNext  }}
+  <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    {{ partial "paginator.html" (dict "paginator" $paginator) }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+
+{{ define "js" }}
+
+{{ if .Site.Params.Experimental.jsDate }}
+{{ partial "luxon.html" . }}
+{{ end }}
+
+{{ if .Site.Params.CDNJS }}
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+{{- else -}}
+  <script src="{{ "/js/3p/imagesloaded.pkgd.min@4.1.4.js" | relURL }}"></script>
+{{ end }}
+
+{{ if .Site.Params.CDNJS }}
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+{{- else -}}
+  <script src="{{ "/js/3p/masonry.pkgd.min@4.2.2.js" | relURL }}"></script>
+{{ end }}
+
+<script src="{{ "/js/grid.js" | relURL }}"></script>
 {{ end }}

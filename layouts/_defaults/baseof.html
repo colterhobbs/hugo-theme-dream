@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ block "title" . }} {{- T "home" -}} {{ end }} | {{ .Site.Title }}</title>
-    <link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
     {{ partial "head.html" . }}
 
@@ -23,8 +23,8 @@
         <section class="front">
           <div class="dream-max-width">
             {{ block "main" . }} {{ end }}
-
-            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+         <!--
+           <footer class="ui basic center aligned segment" style="background-color: transparent;">
               {{ if .Site.Params.siteStartYear }}
               <p>© {{ if eq now.Year .Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ .Site.Params.siteStartYear }} - {{ now.Year }}{{ end }} {{ .Site.Title }}</p>
               {{ else }}
@@ -35,7 +35,8 @@
               {{ if .Site.Params.footerBottomText }}
               <p>{{ .Site.Params.footerBottomText | safeHTML }}</p>
               {{ end }}
-            </footer>
+            </footer>-->
+
           </div>
         </section>
         <section class="back">
