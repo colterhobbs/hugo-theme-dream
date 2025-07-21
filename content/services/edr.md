@@ -1,13 +1,6 @@
 ---
-title: "Endpoint Detection & Response"
-description: "How JP Technical uses Huntress to protect your business"
-type: "page"
----
-description: "`Do you really need antivirus?`<br/> Maybe a better question is,
-'Do you have a bunch of cash for a ransom instead?'<br/> Don’t risk your
-valuable data by assuming you are covered.  "
-
-type : "docs"
+title: "EDR"
+summary: "Advanced endpoint detection & response for modern threats."
 ---
 
 Advanced Threat Protection with Huntress EDR

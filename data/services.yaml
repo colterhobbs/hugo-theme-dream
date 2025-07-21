@@ -1,0 +1,9 @@
+- title: "EDR"
+  summary: "Endpoint detection & response"
+  details: "We use X vendor to protect you..."
+  link: "/services/edr"
+- title: "BCDR"
+  summary: "Backup & Disaster"
+  details: "Full backup services..."
+  link: "/services/bcdr"
+# add the rest...

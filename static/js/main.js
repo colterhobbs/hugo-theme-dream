@@ -18,3 +18,13 @@ $(document).ready(function () {
         $(".flip-container").toggleClass("flip-it")
     })
 });
+
+$(document).ready(function(){
+  $('.services-grid .service-card .shape')
+    .shape({ 
+      on: 'hover' // or use 'click' for click-triggered flip
+    });
+});
+
+const toggle = document.querySelector("#billingSwitch");
+const billingType = toggle && toggle.parentElement.classList.contains("checked") ? "monthly" : "contract";

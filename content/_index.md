@@ -7,7 +7,7 @@ type: "page"
 <style>
   body {
     margin: 0;
-    background: linear-gradient(to bottom, #000000 0%, #f18f38 25%, #f18f38 100%);
+    background: linear-gradient(to bottom, #000000 0%, #f18f38 100%) fixed no-repeat;
   }
 
   .banner-container {
@@ -16,10 +16,11 @@ type: "page"
   }
 
   .banner-container img {
-    width: 100%;
+    width: auto;
     height: auto;
     display: block;
     box-shadow: 0 0 125px rgba(0, 0, 0, 1);
+    animation: play-gif 5s 
   }
 
   .preview-cards {
@@ -40,18 +41,19 @@ type: "page"
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   }
 
-.hero-gradient {
-  height: 100vh;               /* Fill the entire viewport height */
-  width: 100%;                 /* Full width */
-  position: relative;          /* Keep any absolutely positioned elements relative to this */
-  background: linear-gradient(to bottom, #000000, #f18f38); /* From black to orange */
-  z-index: -1;                 /* Send it behind other content if needed */
-}
+/* .hero-gradient {
+  height: 100vh;              
+  width: 100%;                 
+  position: relative;          
+  background: linear-gradient(to bottom, #000000, #f18f38); 
+  z-index: -1;                
+} */
 
 .banner-image {
   width: 100%;
   display: block;
   margin-bottom: 2rem;
+  animation: loop=1
 }
 
 .card h3 {
@@ -61,9 +63,23 @@ type: "page"
 .card-shift-up {
   margin-top: -20px;
 }
+
 .card-shift-down {
   margin-top: 40px;
 }
+
+
+.ui-inverted-vertical-segment {
+    flex: 1 1 300px;
+    max-width: 999px;
+    background: #013366;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+
+}
+
 
 </style>
 
@@ -71,7 +87,10 @@ type: "page"
 <div class="hero-gradient">
 
 <div class="banner-container img">
-  <img src="/images/banner.gif" alt="Banner" class="banner-image" />
+<video autoplay muted playsinline style="width: 100%; height: auto;">
+  <source src="/videos/banner.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 <br>
 <br>
@@ -122,3 +141,9 @@ type: "page"
 <br>
 <br>
 <br>
+
+<div class="ui-inverted-vertical-segment" style="background-color: #013366; padding: 2em 1em; text-align: center;">
+  <h3 style="color: white; margin-bottom: 0.5em;">Alaska’s Trusted IT Partner</h3>
+  <p style="color: #ccc; font-size: 1.2em;">Secure, support, and modernize your business with expert help from JP Technical.</p>
+  <a class="ui large orange button" href="/contact">Get in Touch</a>
+</div>
